@@ -1,0 +1,26 @@
+{
+  "name": "account-verification-node",
+  "version": "1.0.0",
+  "description": "<a href=\"https://www.twilio.com\">   <img src=\"https://static0.twilio.com/marketing/bundles/marketing/img/logos/wordmark-red.svg\" alt=\"Twilio\" width=\"250\" /> </a>",
+  "main": "index.js",
+  "dependencies": {
+    "authy": "^1.4.0",
+    "bcrypt": "^3.0.2",
+    "body-parser": "^1.18.3",
+    "connect-flash": "^0.1.1",
+    "dotenv-safe": "^6.1.0",
+    "eslint": "^5.15.3",
+    "express": "^4.16.4",
+    "express-session": "^1.15.6",
+    "jade": "^1.11.0",
+    "mongoose": "^5.4.19",
+    "morgan": "^1.9.1",
+    "twilio": "^3.29.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
